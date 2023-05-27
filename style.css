@@ -1,0 +1,88 @@
+
+body {
+    background-color: #F0F5F9;    
+}
+
+.social-icon:hover {
+    filter: grayscale(100%) sepia(100%);
+    height: 110%;
+}
+
+.footer-section, .contact-button, .gradientdesign {
+	background: linear-gradient(-45deg, #000000, #e73c7e, #0F1851, #031F73);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.footer-section {
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.skill {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill p {
+	text-align: justify;
+	font-family: Merriweather, serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: rgb(64, 81, 78);
+}
+
+.skill img {
+	border-radius: 10%;
+}
+
+.getintouch, .introduction {
+	margin-top: 5% ;
+	margin-bottom: 5%;	
+}
+
+.introduction {
+	text-align: center;
+	margin-bottom: 15%;	
+}
+
+.introduction > img {
+	border-radius: 50%;
+}
+
+.hero-section {
+	position: relative;
+	margin-bottom: 10%;
+}
+
+.hero-text {
+	position: absolute;
+	top:40%;
+	text-align: center;
+	width: 100%;
+}
+
+.hero-text h2{
+	font-family: "Sacramento", cursive;
+	font-size: 4rem;
+	font-weight: bold;
+	color: #2A0944;
+}
+
+.hero-text p{
+	font-family: cursive;
+	font-size: 2rem;
+	color: #234409;
+}
